@@ -22,12 +22,18 @@
 
 ---
 
-## 🏗️ Repository Architecture
+## 📁 Repository Contents
 
 ```text
 A_Business_Analytics_Project/
 │
-├── 🗄️ Datasets/             # 6 underlying relational data tables (Excel)
-├── 🖼️ Assets/                 # UI components and dashboard screenshots
-├── 📊 Finance_Tracker.pbix    # Packaged Power BI project file
-└── 📝 README.md               # Documentation
+├── 📁 Datasets/
+│   ├── 📁 Raw Data/                     # Unprocessed source files
+│   └── 📊 Mid D-Hub Cleaned.xlsx        # The 6 underlying relational data tables
+├── 📁 Power BI Project/
+│   └── 📈 Mid D-Hub.pbix                # Core Power BI dashboard file
+├── 📁 Screenshots/
+│   ├── 🖼️ Main Dashboard.jpg
+│   ├── 🖼️ Products Dashboard.jpg
+│   └── 🖼️ Customers Dashboard.jpg
+└── 📝 README.md                         # Project documentation

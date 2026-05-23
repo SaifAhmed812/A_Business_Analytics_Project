@@ -1,6 +1,7 @@
 # 📊 Mid-D Hub — Finance Tracker Intelligence
 
 > A dynamic Power BI dashboard designed to give end-to-end visibility into sales trends, product metrics, and client-staff relationships within the distribution sector.
+
 ---
 
 ## 👁️ Visual Showcase
@@ -13,9 +14,15 @@
       <td align="center"><b>Customer & Team Hub</b></td>
     </tr>
     <tr>
-      <td><img src="Screenshots/Main.png" alt="Main Dashboard.jpg" width="300"/></td>
-      <td><img src="Screenshots/Products.png" alt="Products Dashboard.jpg" width="300"/></td>
-      <td><img src="Screenshots/Customers.png" alt="Customers Dashboard.jpg" width="300"/></td>
+      <td>
+        <img src="./Screenshots/Main.png" alt="Main Dashboard" width="300"/>
+      </td>
+      <td>
+        <img src="./Screenshots/Products.png" alt="Products Dashboard" width="300"/>
+      </td>
+      <td>
+        <img src="./Screenshots/Customers.png" alt="Customers Dashboard" width="300"/>
+      </td>
     </tr>
   </table>
 </div>
@@ -30,14 +37,19 @@ A_Business_Analytics_Project/
 ├── 📁 Datasets/
 │   ├── 📁 Raw Data/                     # Unprocessed source files
 │   └── 📊 Mid D-Hub Cleaned.xlsx        # The 6 underlying relational data tables
+│
 ├── 📁 Power BI Project/
 │   └── 📈 Mid D-Hub.pbix                # Core Power BI dashboard file
+│
 ├── 📁 Screenshots/
-│   ├── 🖼️ Main Dashboard.jpg
-│   ├── 🖼️ Products Dashboard.jpg
-│   └── 🖼️ Customers Dashboard.jpg
+│   ├── 🖼️ Main.png
+│   ├── 🖼️ Products.png
+│   └── 🖼️ Customers.png
+│
 └── 📝 README.md                         # Project documentation
+```
 
+---
 
 ## 📌 Dashboard Overview & Analytical Domains
 
@@ -46,6 +58,7 @@ The robust data model is split across **3 interactive tabs**, each focused on a 
 ---
 
 ### 1. 💰 Main Dashboard (Sales & Financials)
+
 Tracks overall revenue performance, geographic distribution, and performance against targets.
 
 | KPI | Value |
@@ -56,11 +69,13 @@ Tracks overall revenue performance, geographic distribution, and performance aga
 | Net Profit | $9.9M |
 
 **Core DAX Measures:**
+
 * **`Income Progress %`**: Evaluates real-time performance against strategic benchmarks.
 * **`Balance Variance`**: Calculates absolute deviations in financial accounts.
 * **`Income MoM % Display`**: Configured as a precise numeric value to drive dynamic conditional formatting (font colors) while preserving visual indicator arrows for trend analysis.
 
 **Visuals Included:**
+
 * Sales & COGS trend by quarter (2013 Q1 – 2016 Q2)
 * COGS %, Gross Profit Margin (GPM), and Average Transaction (AVG T) donut gauges
 * Top 20 Sales Cities treemap
@@ -69,6 +84,7 @@ Tracks overall revenue performance, geographic distribution, and performance aga
 ---
 
 ### 2. 📦 Products Dashboard
+
 Analyzes product catalog health, demand, and profitability.
 
 | KPI | Value |
@@ -79,6 +95,7 @@ Analyzes product catalog health, demand, and profitability.
 | AVG Chilly Lead Day | 3 Days |
 
 **Visuals Included:**
+
 * Active / ADP ratio donut charts
 * Sales by Product Size treemap (50m, 20m, L, XL, M, S, 1/12 scale, 10m, N/A)
 * Sales & Profit by Product bubble chart
@@ -89,6 +106,7 @@ Analyzes product catalog health, demand, and profitability.
 ---
 
 ### 3. 👥 Customers & Employees Dashboard
+
 Monitors customer activity, buying group performance, and salesperson rankings.
 
 | KPI | Value |
@@ -101,6 +119,7 @@ Monitors customer activity, buying group performance, and salesperson rankings.
 | # Salespersons | 122 |
 
 **Visuals Included:**
+
 * Active Customer % donut (12.2%)
 * ASP gauge (81%)
 * Sales by Buying Group Venn diagram (Independent $7.8M · Tailspin Toys $9.3M · Wingtip Toys $5.8M)

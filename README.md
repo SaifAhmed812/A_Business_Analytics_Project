@@ -1,38 +1,33 @@
-# 💼 Enterprise Financial Intelligence & Operations Report
+# 📊 Mid-D Hub — Finance Tracker Intelligence
 
-This repository contains a dynamic, end-to-end **Power BI** solution designed to monitor enterprise health, track operational efficiency, and evaluate employee performance. Built upon a robust relational data model integrating six distinct data tables, the project utilizes complex DAX measures to transform raw business data into actionable strategic insights.
-
+> A dynamic Power BI dashboard designed to give end-to-end visibility into sales trends, product metrics, and client-staff relationships within the distribution sector.
 ---
 
-## 📸 Report Gallery
+## 👁️ Visual Showcase
 
 <div align="center">
   <table>
     <tr>
-      <td align="center"><b>1. Executive Overview</b></td>
-      <td align="center"><b>2. Product Analytics</b></td>
+      <td align="center"><b>Executive Financials</b></td>
+      <td align="center"><b>Product Intelligence</b></td>
+      <td align="center"><b>Customer & Team Hub</b></td>
     </tr>
     <tr>
-      <td><img src="Screenshots/Main Dashboard.png" alt="Main Dashboard View" width="450"/></td>
-      <td><img src="Screenshots/Products Dashboard.png" alt="Products View" width="450"/></td>
-    </tr>
-    <tr>
-      <td align="center" colspan="2"><b>3. Client & Team Performance</b></td>
-    </tr>
-    <tr>
-      <td align="center" colspan="2"><img src="Screenshots/Customers DashboradCustomers_Team.png" alt="Customers View" width="600"/></td>
+      <td><img src="Screenshots/Main.png" alt="Main Dashboard" width="300"/></td>
+      <td><img src="Screenshots/Products.png" alt="Products Dashboard" width="300"/></td>
+      <td><img src="Screenshots/Customers.png" alt="Customers Dashboard" width="300"/></td>
     </tr>
   </table>
 </div>
 
 ---
 
-## 📂 Project Architecture
+## 🏗️ Repository Architecture
 
 ```text
 A_Business_Analytics_Project/
 │
-├── 📁 SourceData/             # Cleaned datasets and raw Excel feeds
-├── 📁 Assets/                 # Icons, backgrounds, and dashboard screenshots
-├── 📄 Mid_DHub_Report.pbix    # Core Power BI dashboard file
-└── 📄 README.md               # Project documentation
+├── 🗄️ Datasets/             # 6 underlying relational data tables (Excel)
+├── 🖼️ Assets/                 # UI components and dashboard screenshots
+├── 📊 Finance_Tracker.pbix    # Packaged Power BI project file
+└── 📝 README.md               # Documentation

@@ -14,15 +14,9 @@
       <td align="center"><b>Customer & Team Hub</b></td>
     </tr>
     <tr>
-      <td>
-        <img src="./Screenshots/Main.png" alt="Main Dashboard" width="300"/>
-      </td>
-      <td>
-        <img src="./Screenshots/Products.png" alt="Products Dashboard" width="300"/>
-      </td>
-      <td>
-        <img src="./Screenshots/Customers.png" alt="Customers Dashboard" width="300"/>
-      </td>
+      <td><img src="Screenshots/Main%20Dashboard.jpg" alt="Main Dashboard" width="300"/></td>
+      <td><img src="Screenshots/Products%20Dashboard.jpg" alt="Products Dashboard" width="300"/></td>
+      <td><img src="Screenshots/Customers%20Dashboard.jpg" alt="Customers Dashboard" width="300"/></td>
     </tr>
   </table>
 </div>

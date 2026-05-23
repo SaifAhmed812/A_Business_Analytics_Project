@@ -11,7 +11,7 @@
     <tr>
       <td align="center"><b>Executive Financials</b></td>
       <td align="center"><b>Product Intelligence</b></td>
-      <td align="center"><b>Customer & Team Hub</b></td>
+      <td align="center"><b>Customers Hub</b></td>
     </tr>
     <tr>
       <td><img src="Screenshots/Main%20Dashboard.jpg" alt="Main Dashboard" width="300"/></td>
